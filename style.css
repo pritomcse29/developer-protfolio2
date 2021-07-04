@@ -64,3 +64,8 @@ border-image: linear-gradient(blue,cyan);
 border-left: 10px solid;
 border-image-slice: 1;
 }
+.section2{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
