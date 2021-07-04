@@ -2,13 +2,16 @@ h1{
  font-size: 50px;
 }
 body{
-    font-family: 'Poppins', sans-serif;  
+    font-family: 'Poppins', sans-serif; 
+    margin:0px;
+    padding: 0px; 
 }
 .orange-color{
 color: orange;
 }
 .section1{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -23,4 +26,41 @@ color: orange;
     font-size: 20px;
     padding:10px 40px;
     background-image: linear-gradient(orange,purple);
+}
+.topper-image{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.middle-image{
+    background-image: url(images/dream-bg.png);
+    background-repeat:no-repeat;
+    background-position:right ;
+}
+.Web-Developer{
+    width: 40%;
+    padding-left: 5%;
+    box-shadow: 10px 10px 40px red;
+    margin-bottom: 150px;
+    margin-left: 5%;
+    margin-right: 5%;
+   
+}
+.section3{
+    display: flex;
+}
+h3{
+    color: orange;
+}
+footer p{
+    text-align:center;
+}
+#Full-Stack-Web-Developer{
+ border-left: 10px solid;
+ border-image: linear-gradient(purple,tomato);
+ border-image-slice: 1;
+}
+#Baby-Web-Developer{
+border-image: linear-gradient(blue,cyan);
+border-left: 10px solid;
+border-image-slice: 1;
 }
